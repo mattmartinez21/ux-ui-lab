@@ -1,0 +1,19 @@
+UX/UI Lab Style Guide
+
+font-family: "Noto Sans KR", sans-serif
+button padding: 10px 15px 20px
+button border radius: 20px
+
+Colors:
+
+background color: #0e0b16
+
+text colors:
+
+#e7dfdd
+#4717f6
+#fff
+
+button background colors:
+
+#a239ca

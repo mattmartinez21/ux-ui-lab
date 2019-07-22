@@ -1,0 +1,93 @@
+body {
+  margin: 20px;
+  font-family: "Noto Sans KR", sans-serif;
+  background-color: #0e0b16;
+}
+
+nav,
+ul,
+main {
+  display: flex;
+  flex-direction: row;
+  color: #e7dfdd;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+}
+
+.company {
+  font-size: 22px;
+  font-weight: bold;
+  color: #4717f6;
+  text-decoration: none;
+}
+
+a {
+  display: block;
+  width: fit-content;
+}
+
+.contact-button {
+  background-color: #a239ca;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  width: inherit;
+}
+
+.button {
+  background-color: #a239ca;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+  width: inherit;
+}
+
+@media only screen and (min-width: 769px) {
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  ul {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  li {
+    margin: 0 0 0 10px;
+    color: #fff;
+  }
+
+  main {
+    margin-top: 150px;
+    flex-direction: row;
+  }
+
+  .picture {
+    width: 50%;
+    flex: 1;
+  }
+
+  .info {
+    width: 50%;
+  }
+
+  button {
+    border-radius: 10px;
+    padding: 15px;
+    background-color: #a239ca;
+    border-color: #fff;
+  }
+  .contact-button {
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
